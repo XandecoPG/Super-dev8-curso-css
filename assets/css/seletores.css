@@ -1,0 +1,23 @@
+img {
+    /* width: 800px; */
+}
+
+/* id
+<elemento id="the-office>...</elemento> */
+#the-office {
+    width: 150px;
+}
+
+#breaking-bad{
+    width: 300px;
+}
+
+#the-zombies{
+    width: 600px;
+}
+
+/* Classe: Uma forma de compartilhar estilização entre elementos */
+
+.imagens-mesmo-tamanho{
+    width: 350px;
+}
