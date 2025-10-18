@@ -1,0 +1,102 @@
+.demonstracao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+/*
+ Top => parte de cima
+right => direita
+bottom => parte de baixo
+left => esquerda
+ */
+
+.borda-solid {
+
+    border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 1px;
+
+    border-right-style: solid;
+    border-right-color: #000;
+    border-top-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 1px;
+
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 1px;
+
+}
+
+.borda-dashed {
+    /* Shorthand */
+
+    border-top: 4px dashed #f59e0b;
+    border-right: 4px dashed #f59e0b;
+    border-bottom: 4px dashed #f59e0b;
+    border-left: 4px dashed #f59e0b;
+
+}
+
+.borda-dotted {
+    /* cima, direita,baixo e esquerda */
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #ef4444 #fc05fc #447e1e #be1e1e33;
+
+}
+
+.borda-double {
+    /* cima/baixo(6px), direita/esquerda (8px) */
+    /*todos os lados. Cima, baixo, direita, esquerda*/
+
+    border-width: 6px 8px;
+    border-color: #8a0b35;
+    border-style: double;
+}
+
+.borda-groove {
+    /* Cima, direita, baixo e esquerda */
+    border: 8px #09338d groove;
+}
+
+.borda-ridge {
+    border: 9px #440846 ridge;
+
+}
+
+.borda-inset {
+    border: 10px #ec4899 inset;
+}
+
+
+.borda-outset {
+    border: 10px #8a0b35 outset;
+    border-radius: 12px 15px;
+}
+
+.borda-radius-diferente {
+    border: 8px #f59e0b solid;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
+}
+
+/* HOVER é utilizado para fazer com que muda a tonalidade ao passar com o mouse */
+.borda-radius-diferente:hover {
+    border-color: #f703ff;
+    cursor: pointer;
+}
+
+.borda-radius-igual {
+    border: 4px #05501c33 dashed;
+    border-radius: 100px;
+}
