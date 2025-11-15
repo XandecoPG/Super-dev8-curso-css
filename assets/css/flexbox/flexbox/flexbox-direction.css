@@ -87,3 +87,46 @@ div.section {
 .mb-2{
     margin-bottom: 8px;
 }
+
+.flex-altura{
+    min-height: 120px;
+}
+
+.item-baixo{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.item-medio{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.item-alto{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.aling-items-flex-start{
+    align-items: flex-start;
+}
+
+.aling-items-center{
+    align-items: center;
+}
+
+.aling-items-flex-end{
+    align-items: flex-end;
+}
+
+.aling-items-stretch{
+    align-items: stretch;
+}
+
+.aling-items-baseline{
+    align-items: baseline;
+}
+
+
